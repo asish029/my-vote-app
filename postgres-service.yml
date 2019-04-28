@@ -10,7 +10,7 @@
 
         spec:
            ports:
-           - Port: 5432
+           - port: 5432
              targetPort: 5432
            selector:
               name: postgres-pod
