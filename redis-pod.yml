@@ -9,7 +9,7 @@
               app: demo-voting-app 
 
         spec:
-            container:
+            containers:
             - name: redis-app
               image: redis
               port:

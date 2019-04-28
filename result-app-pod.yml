@@ -9,7 +9,7 @@
               app: demo-voting-app 
 
         spec:
-            container:
+            containers:
             - name: result-app
               image: eesprit/voting-app-result
               port:

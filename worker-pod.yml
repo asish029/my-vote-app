@@ -9,7 +9,7 @@
               app: demo-voting-app 
 
         spec:
-            container:
+            containers:
             - name: worker-app
               image: eesprit/voting-app-worker
               
