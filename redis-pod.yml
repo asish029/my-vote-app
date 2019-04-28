@@ -12,5 +12,5 @@
             containers:
             - name: redis-app
               image: redis
-              port:
+              ports:
               - containerPort: 6379

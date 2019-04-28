@@ -12,5 +12,5 @@
             containers:
             - name: voting-app
               image: eesprit/voting-app-vote
-              port:
+              ports:
               - containerPort: 80

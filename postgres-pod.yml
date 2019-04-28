@@ -12,5 +12,5 @@
             containers:
             - name: postgres-app
               image: postgres:9.4
-              port:
+              ports:
               - containerPort: 5432
