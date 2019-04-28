@@ -4,7 +4,7 @@
 
         metadata: 
             name: result-service
-            lables:
+            labels:
               name: result-service
               app: demo-voting-app 
 

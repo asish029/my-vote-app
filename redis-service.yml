@@ -4,7 +4,7 @@
 
         metadata: 
             name: redis
-            lables:
+            labels:
               name: redis-service
               app: demo-voting-app 
 
