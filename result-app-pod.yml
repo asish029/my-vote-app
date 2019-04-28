@@ -1,0 +1,16 @@
+        apiVersion: v1
+
+        kind: pod
+
+        metadata: 
+            name: result-app-pod
+            lables:
+              name: result-app-pod
+              app: demo-voting-app 
+
+        spec:
+            container:
+            - name: result-app
+              image: eesprit/voting-app-result
+              port:
+              - containerPort: 80
