@@ -3,7 +3,7 @@
         metadata:
           name: redis-deployment
           labels:
-            app: redis
+            app: demo-voting-app
         spec:
           replicas: 1
           selector:
@@ -12,7 +12,7 @@
               app: demo-voting-app
              
           template:
-           metadata: 
+            metadata: 
                 name: redis-pod
                 labels:
                   name: redis-pod
